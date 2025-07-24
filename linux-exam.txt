@@ -1,0 +1,91 @@
+
+
+
+# pwd – Print Working Directory
+- $ pwd
+
+
+
+# ls – List Files/Directories
+- ls
+- ls -l      # long listing
+- ls -a      # show hidden files
+
+
+
+
+
+# cd – Change Directory
+- cd /home/user/Documents   # go to Documents folder
+- cd ..                     # go back one directory
+- cd ~                      # go to home directory
+
+
+
+
+
+
+# mkdir – Make Directory
+- mkdir newfolder
+- mkdir -p folder1/folder2   # create nested directories
+
+
+
+
+
+# touch – Create Empty File / Update Timestamp
+- touch file1.txt
+- touch file2 file3
+
+
+
+
+# mv – Move / Rename File
+- mv file1.txt folder/          # move file
+- mv oldname.txt newname.txt    # rename file
+
+
+
+
+
+# rm – Remove File/Directory
+- rm file1.txt           # remove file
+- rm -r folder           # remove folder recursively
+- rm -rf folder          # force remove folder
+
+
+
+
+
+# cat – View File Content
+- cat file.txt
+- cat file1 file2 > merged.txt   # merge files 
+
+
+
+
+
+# echo – Print Text / Write to File
+- echo "Hello World"
+- echo "This is a line" > file.txt    # overwrite file
+- echo "Another line" >> file.txt     # append to file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
