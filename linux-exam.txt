@@ -50,7 +50,7 @@
 
 # rm – Remove File/Directory
 - rm file1.txt           # remove file
-- rm -r folder           # remove folder recursively
+- rm -r folder           # deletes folder and its content recursively
 - rm -rf folder          # force remove folder
 
 
@@ -58,17 +58,165 @@
 
 
 # cat – View File Content
-- cat file.txt
-- cat file1 file2 > merged.txt   # merge files 
+- cat file.txt                 (Displays the content of file.txt)
+- cat file1 file2 > merged.txt   (Combines contents of file1 and file2 into merged.txt)
 
 
 
 
 
 # echo – Print Text / Write to File
-- echo "Hello World"
-- echo "This is a line" > file.txt    # overwrite file
-- echo "Another line" >> file.txt     # append to file
+- echo "Hello World"       (Prints "Hello World" to the terminal)
+- echo "This is a line" > file.txt    (Writes "Data" to file.txt (overwrites existing content)
+- echo "More" >> file.txt     (Appends "More" to file.txt)
+
+
+
+
+
+# chmod – Change File Permissions
+- chmod 755 script.sh     # rwxr-xr-x permission for script.sh
+- chmod +x script.sh      # add execute permission
+
+
+
+# clear – Clear Terminal
+- clear
+
+
+
+
+
+
+
+# whoami – Display Current Logged User
+- whoami
+
+
+
+
+
+
+# man – Manual Pages (Help)
+- man ls
+- man pwd
+
+
+
+
+
+# date – Show Current Date/Time
+- date
+- date +"%d-%m-%Y %H:%M:%S"
+
+
+
+
+
+
+# cal – Show Calendar
+- cal          # current month
+- cal 2025     # calendar of year 2025
+- cal 07 2025  # July 2025
+
+
+
+
+
+# uname – System Info
+- uname         # kernel name
+- uname -a      # detailed info
+
+
+
+# df – Disk Space Usage
+- df
+- df -h    # human readable (MB/GB)
+
+
+
+
+
+
+# cp file1.txt file2.txt (Copies file1.txt to file2.txt)
+# cp -r folder1 folder2  (copies folder1 (and its contents) to folder2)
+
+
+
+
+
+# Take Input and Greet
+- echo "Enter your name:"
+  read name
+  echo "Hello, $name!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
