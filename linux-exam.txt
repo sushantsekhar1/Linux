@@ -442,19 +442,20 @@ cat (file name) linux-exam.txt
 
 
 # Fibonacci Series
-- echo -n "Enter number of terms: "
-  read n
-  a=0
-  b=1
+echo "Enter number of term : "
+read n
 
-  echo "Fibonacci Series:"
-  for (( i=0; i<n; i++ ))
-  do
-    echo -n "$a "
-    fn=$((a + b))
-    a=$b
-    b=$fn
-  done
+a=0
+b=1
+
+echo -n "$a $b"
+
+for((i=2;i<=n;i++))
+do      c=$(($a+$b))
+        echo -n " $c"
+        a=$b
+        b=$c
+done
 
 
 
