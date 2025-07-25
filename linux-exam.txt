@@ -690,9 +690,32 @@ else
 fi
 
 
+#File with .txt extension
+#!/bin/bash
+echo "Enter directory:"
+read dir
+
+if [ -d "$dir" ]; then
+  find "$dir" -name "*.txt"
+else
+  echo "Directory not found"
+fi
 
 
 
+# Read file line by line
+#!/bin/bash
+echo "Enter filename:"
+read file
+
+if [ -f "$file" ]; then
+  while read line
+  do
+    echo "$line"
+  done < "$file"
+else
+  echo "File not found"
+fi
 
 
 
