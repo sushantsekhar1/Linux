@@ -606,9 +606,52 @@ cat (file name) linux-exam.txt
   fi
 
 
+#Calculator 
+
+echo "Enter the First Number"
+read a
+
+echo "Enter the Second Number"
+read b
+
+echo "Enter the Choise"
+
+echo "1.Addition"
+echo "2.Subtraction"
+echo "3.Multiplication"
+echo "4.Division"
 
 
+read choise
 
+case $choise in
+1)res=$((a+b))
+	echo "Result: $a + $b = $res";;
+2)res=$((a-b))
+	echo "Result: $a - $b = $res";;
+3)res=$((a*b))
+	echo "Result: $a * $b = $res";;
+4)res=$((a/b))
+	echo "Result: $a / $b = $res";;
+*)
+	echo"Invalid Choise";;
+esac
+
+
+# String Matching
+
+echo "Enter your first String"
+read s1
+
+echo "Enter your second String"
+read s2
+
+
+if [ "$s1" = "$s2" ]; then
+	echo "String are equal"
+else
+	echo "String are not equal"
+fi
 
 
 
